@@ -30,4 +30,6 @@ public class Main {
         System.out.println("Hotel Available: " + hotel.available());
         System.out.println("Guest Checked In Successfully");
     }
+    // Main application entry point
+
 }
