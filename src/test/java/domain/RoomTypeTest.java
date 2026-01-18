@@ -20,10 +20,5 @@ public class RoomTypeTest {
             () -> new RoomType("Deluxe", -10)
         );
     }
-    @Test
-void shouldFailIntentionally() {
-    RoomType roomType = new RoomType("Deluxe", 5000);
-    assertEquals(6000, roomType.getCost()); // intentional fail
-}
-
+    
 }
